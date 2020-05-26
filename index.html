@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin & win - Amazon rewards</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Amazon icon-->
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Amazon Rewards
+        </a>
+    </nav>
+    <h1 class="text-center" style="font-weight: bold;">Powered By Currentalks</h1>
+    <div class="container">
+        <div class="container mx-3" style="display:flex;flex-wrap:wrap;justify-content: center;">
+            <img src="slide1.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+       
+        <div class="container"
+            style="background:linear-gradient(90deg, rgba(244,93,238,1) 0%, rgba(254,10,10,0.9472163865546218) 47%, rgba(144,0,232,1) 100%);"
+            style="border-radius:40px;display:flex;flex-direction:column;flex-wrap:wrap;align-items: center;">
+            <!-- <img src="logo.png" class="img-fluid"alt="Responsive" style=""> -->
+            <img src="spinner.jpg" id="spinner"class="img-fluid" alt="Responsive image"
+                style="border-radius:460px;height:310px;width:400px;justify-content: center;">
+            <div class="container my-4" id="winnerbox" style="display:none;background-color:white; padding:10px;border:2px solid black;">
+                <p style="color:green;font-size:30px;">Congratulation! You win Rs100</p>
+                <button class="btn btn-success" id="chutiyakatgya">Grab your reward.</button>
+                <a href="https://currentalks18.blogspot.com"id="togo" style="visibility: hidden;">to go</a>
+            </div>
+            <div class="container my-3" id="fool" style="display:none;padding:15px;border:2px solid black;background: blue;">
+                <p style="color:red;font-weight:bold;font-size:30px;">You have been fooled!! Share with your friends to make them fool!</p>
+            </div>
+            <div class="container" id="loader" style="display:none;">
+                <div class="d-flex align-items-center">
+                    <strong>Loading...</strong>
+                    <div class="spinner-border ml-auto" role="status" aria-hidden="true"></div>
+                  </div>
+            </div>
+            <button class="btn btn-outline-primary" id="Spin"
+                style="font-size:55px; margin-left:100px;margin-top:60px;">Spin</button>
+            <div class="container ">
+                <p class="text-light" style="font-size:55px;font-weight: bold;margin-top: 60px;">Spin this spinner And
+                    Win</p>
+            </div>
+        </div>
+
+        <div class="container my-3 p-4"
+            style="margin-bottom:50px;display: flex;flex-wrap: wrap; align-items: center;">
+            <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+                src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_br_asin_til&ad_type=product_link&tracking_id=souravberaoff-21&marketplace=amazon&region=IN&placement=B07Z99Q55K&asins=B07Z99Q55K&linkId=5bd15d4fe6ba4f0058d59e493b45410a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+            </iframe>
+            <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+                src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_br_asin_til&ad_type=product_link&tracking_id=souravberaoff-21&marketplace=amazon&region=IN&placement=B07CV952KR&asins=B07CV952KR&linkId=3966c83f76d1813b529ee6cdb0e81f16&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+            </iframe>
+            <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+                src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_br_asin_til&ad_type=product_link&tracking_id=souravberaoff-21&marketplace=amazon&region=IN&placement=B06XS9L4YS&asins=B06XS9L4YS&linkId=d479acf9638fbb0437515a415abba080&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+            </iframe>
+            <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+                src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_br_asin_til&ad_type=product_link&tracking_id=souravberaoff-21&marketplace=amazon&region=IN&placement=B07Y3CJJCR&asins=B07Y3CJJCR&linkId=dd7b8cf6cbf854dc837414f40c7e4f26&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+            </iframe>
+            <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+                src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_br_asin_til&ad_type=product_link&tracking_id=souravberaoff-21&marketplace=amazon&region=IN&placement=B0853V5WDL&asins=B0853V5WDL&linkId=e4dc98637787115b250efb15021bd7d9&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+            </iframe>
+            <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+                src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_br_asin_til&ad_type=product_link&tracking_id=souravberaoff-21&marketplace=amazon&region=IN&placement=B07T8HLV1W&asins=B07T8HLV1W&linkId=bcdf0ee8f28e54bb7b7cd4bede6c7967&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+            </iframe>
+            <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+                src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_br_asin_til&ad_type=product_link&tracking_id=souravberaoff-21&marketplace=amazon&region=IN&placement=0143450832&asins=0143450832&linkId=f5c7f0310d9721a66baa0c39038af482&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+            </iframe>
+            <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"
+                src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_br_asin_til&ad_type=product_link&tracking_id=souravberaoff-21&marketplace=amazon&region=IN&placement=B00T7N2R1Q&asins=B00T7N2R1Q&linkId=ad17fd31acd47520a67e84a890f6c50a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+            </iframe>
+        </div>
+    </div>
+    <footer>
+        <p class="text-center" style="font-weight: bold;">Copyright for @currentalks private limited | All rights are reserved.</p>
+    </footer>
+    <script>
+
+        spin=document.getElementById('Spin');
+        spin.addEventListener('click',()=>{
+            let angle=0;
+            let id=setInterval(()=>{
+                
+                angle=angle+90;
+                document.getElementById('spinner').style.transform=`rotate(${angle}deg)`;
+            },10);
+
+            setTimeout(()=>{
+                clearInterval(id);
+                document.getElementById('Spin').style.display="none";
+                setTimeout( ()=>{
+                    document.getElementById('winnerbox').style.display="block";
+                },2000);
+                
+            },4000);
+
+        })
+        togo=document.getElementById('togo');
+        chutiyakatgya=document.getElementById('chutiyakatgya');
+        chutiyakatgya.addEventListener('click',()=>{
+            setTimeout(()=>{
+                document.getElementById('winnerbox').style.opacity=0.3;
+                document.getElementById('loader').style.display="block";
+                setTimeout(()=>{
+                    document.getElementById('winnerbox').style.display="none";
+                    document.getElementById('loader').style.display="none";
+                    togo.click();
+                    document.getElementById('fool').style.display="block";
+                    
+                },4000)
+
+            },1000);
+        })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
